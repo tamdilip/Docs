@@ -1,0 +1,8 @@
+Working :
+md5sum newfile.txt
+
+To display output in console:
+split -b 100663296 filename --filter='md5sum'
+
+To write output in a file:
+split -b 100663296 filename --filter='md5sum >> saveFile.txt'
